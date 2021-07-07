@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: black;
+        }
+
+        h1:hover {
+            color: skyblue;
+            background-color: #ee3211;
+        }
+
+        .middle-person:focus {
+            color: chartreuse;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+
+        li:last-child {
+            background-color: chocolate;
+        }
+
+        li:nth-child(2n) {
+            color: blue;
+        }
+
+        h3::before {
+            content: 'Hello '
+        }
+
+        .special::after {
+            content: " Gelo";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://google.com">Google</a>
+    <a href="https://www.facebook.com/keyloggerzone">Keylogger zone</a>
+    <a href="https://www.facebook.com/keyloggerzon">Keylogger zone</a>
+    <br>
+    <h3>Middle Class - 1</h3>
+    <h3 class="special">Middle Class - 2</h3>
+    <h3>Middle Class - 3</h3>
+    <h3 class="special">Middle Class - 4</h3>
+    <h3>Middle Class - 5</h3>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Salia</li>
+        <li>Malia</li>
+        <li>Rahila</li>
+    </ul>
+
+</body>
+
+</html>
